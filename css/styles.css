@@ -63,21 +63,24 @@ a {
   height: 300px;
   width: 200px;
 }
-.projects img {
-  height: 100px;
-  width: 200px;
-}
 .firstProject {
   background-image: url(../images/digital-marketing-meeting.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 300px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 .secoundProject {
   background-image: url(../images/Screenshot\ 2023-10-08\ at\ 19.31.01.png);
+}
+
+.thirdProject {
+  background-image: url(../images/expanding\ hover.png);
+}
+.fourthProject {
+  background-image: url(../images/drum-kit.png);
+}
+
+.firstProject,
+.secoundProject,
+.thirdProject,
+.fourthProject {
   background-size: cover;
   background-repeat: no-repeat;
   height: 300px;
