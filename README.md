@@ -12,9 +12,9 @@ Here is the screenshot of deployed application:
 ![Personal Portfolio](/images/web-1.png)
 ![](/images/web-2.png)
 
-Deployed application: https://janeks111.github.io/personal-portfolio-CSS-HTML/
+Deployed application: https://janeks111.github.io/Bootstrap-portfolio-/#
 
-Repository: https://github.com/Janeks111/personal-portfolio-CSS-HTML
+Repository: https://github.com/Janeks111/Bootstrap-portfolio-
 
 ## Installation
 
