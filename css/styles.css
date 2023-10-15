@@ -1,4 +1,4 @@
-/* Text */
+/* Set font for headings */
 h1,
 h2,
 h3,
@@ -7,37 +7,46 @@ h5,
 h6 {
   font-family: "Anton", sans-serif;
 }
+
+/* Set font for paragraphs */
 p {
   font-family: "Jura", sans-serif;
 }
 
+/* Set font for links */
 a {
   font-family: "Fuzzy Bubbles", sans-serif;
 }
+
+/* Styles for a custom navigation bar */
 .customNav {
   position: fixed;
   width: 100%;
-
   background-size: cover;
   z-index: 10;
 }
+
+/* Adjust margin for navigation links */
 .navbar-nav {
   margin-left: auto;
-  margin-right: 0 !important;
   font-size: 20px;
 }
 
 .nav-item {
   margin: 0px 15px;
 }
-/* Navigation links */
+
+/* Style navigation links */
 .customNav a {
   color: white !important;
 }
+
+/* Scale down non-hovered navigation items */
 .navbar-nav:hover > :not(:hover) {
   transform: scale(0.5);
 }
 
+/* Styles for a hero background */
 .heroBackground {
   background-image: url(../images/endless-constellation.png);
   background-size: cover;
@@ -48,6 +57,7 @@ a {
   justify-content: center;
 }
 
+/* Styles for a jumbo copy section */
 .jumboCopy {
   width: 70%;
   min-width: 500px;
@@ -56,11 +66,13 @@ a {
   text-align: center;
 }
 
+/* Styles for an about section */
 .aboutText {
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 .aboutText img {
   height: 300px;
   width: 200px;
@@ -74,19 +86,26 @@ a {
   margin: 150px auto;
 }
 
+/* Adjust margins for specific project sections */
 .thirdProject,
 .fourthProject {
   margin-right: 120px;
 }
+
+/* Styles for a projects section */
 .projects {
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
 }
+
 .projects h3 {
   text-align: center;
   margin: 230px auto;
 }
+
+/* Reduce opacity of non-hovered cards and add box shadow on hover */
 .card:hover > :not(:hover) {
   opacity: 0.4;
 }
@@ -95,7 +114,13 @@ a {
   box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
     rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
 }
-/* Footer Styles */
+
+.card .btn:hover {
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+/* Styles for the footer */
 .footer {
   display: flex;
   flex-direction: column;
@@ -113,6 +138,7 @@ a {
   margin: 0;
 }
 
+/* Styles for social links in the footer */
 .socialLinks a {
   display: inline-block;
   margin: 20px;
