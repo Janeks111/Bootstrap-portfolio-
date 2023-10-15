@@ -17,13 +17,14 @@ a {
 .customNav {
   position: fixed;
   width: 100%;
-  background-color: transparent !important;
+
   background-size: cover;
   z-index: 10;
 }
 .navbar-nav {
   margin-left: auto;
   margin-right: 0 !important;
+  font-size: 20px;
 }
 .navbar-brand img {
   padding-right: 15px;
@@ -36,12 +37,15 @@ a {
 .customNav a {
   color: white !important;
 }
+.navbar-nav:hover > :not(:hover) {
+  transform: scale(0.5);
+}
 
 .heroBackground {
   background-image: url(../images/endless-constellation.png);
   background-size: cover;
   background-repeat: no-repeat;
-  height: calc(100vh - 25px);
+  height: 500px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -53,4 +57,31 @@ a {
   max-width: 700px;
   color: white;
   text-align: center;
+}
+
+.aboutText img {
+  height: 300px;
+  width: 200px;
+}
+.projects img {
+  height: 100px;
+  width: 200px;
+}
+.firstProject {
+  background-image: url(../images/digital-marketing-meeting.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.secoundProject {
+  background-image: url(../images/Screenshot\ 2023-10-08\ at\ 19.31.01.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
