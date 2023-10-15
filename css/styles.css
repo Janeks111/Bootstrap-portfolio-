@@ -26,10 +26,7 @@ a {
   margin-right: 0 !important;
   font-size: 20px;
 }
-.navbar-brand img {
-  padding-right: 15px;
-  width: 65px;
-}
+
 .nav-item {
   margin: 0px 15px;
 }
@@ -59,15 +56,18 @@ a {
   text-align: center;
 }
 
-.aboutText img {
-  height: 300px;
-  width: 200px;
-}
 .aboutText {
   display: flex;
   align-items: center;
   justify-content: center;
 }
+.aboutText img {
+  height: 300px;
+  width: 200px;
+  display: block;
+  margin: 0 auto;
+}
+
 .aboutText h3 {
   text-align: center;
   margin: 150px auto;
@@ -75,7 +75,7 @@ a {
 
 .thirdProject,
 .fourthProject {
-  margin-right: 80px;
+  margin-right: 120px;
 }
 .projects {
   display: flex;
