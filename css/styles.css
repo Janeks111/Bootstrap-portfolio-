@@ -88,9 +88,9 @@ a {
 }
 .card:hover > :not(:hover) {
   opacity: 0.4;
-  transform: scale(0.5);
 }
 
 .card:hover {
-  box-shadow: ;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
 }
